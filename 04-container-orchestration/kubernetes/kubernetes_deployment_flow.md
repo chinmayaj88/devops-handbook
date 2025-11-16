@@ -63,7 +63,7 @@ graph TD
 ### 📘 Scheduling Factors:
 - **CPU & Memory Requests** — Pods are placed only where resources are available.  
 - **Node Selector / Affinity** — Controls placement rules (e.g., frontends and backends on separate nodes).  
-- **Pod Anti-Affinity** — Ensures replicas don’t end up on the same node (for HA).  
+- **Pod Anti-Affinity** — Ensures replicas don't end up on the same node (for HA).  
 
 ---
 
@@ -209,3 +209,4 @@ graph TB
 **Author:** Chinmaya — Cloud & DevOps Engineer  
 **Version:** 2.0  
 **License:** MIT
+
